@@ -1,0 +1,208 @@
+
+body {
+   background-color: #4b495d;
+}
+
+
+.navbar-spacer {
+   height: 50px;
+}
+
+.navbar {
+   overflow: hidden;
+   background-color: #26252f;
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; 
+   left: 0;
+   width: 100%; /* Full width */
+   height: inherit;
+   display: grid;
+   grid-template-columns: auto;
+   align-content: center;
+   z-index: 2;
+}
+
+.header {
+   font-family: 'Dela Gothic One', cursive;
+   color: orangered;
+   text-align: center;
+   font-size: 30px;
+}
+
+.fretboard-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin: 0;
+   width: 100%;
+   height: 275px;
+   padding-bottom: 45px;
+}
+
+.fretboard {
+   position: relative;
+   margin: auto;
+}
+
+.score {
+   color: white;   
+   text-align: center;
+}
+
+
+.fret-button {
+   position: absolute;
+   z-index: 1;
+   background-color: #26252f;
+   border: none;
+   color: white;
+   height: 48px;
+   width: 48px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 50%;
+   opacity: 0.7;
+}
+
+.question-container {
+   display: block;
+   margin: auto;
+   width: 316px;
+   height: 275px;
+   text-align: center;
+}
+
+.question {
+   font-family: 'Dela Gothic One', cursive;
+   color: white;
+}
+
+.note {
+   font-family: 'Dela Gothic One', cursive;
+   color: white;
+   font-size: 48px;
+   margin-top: -20px;
+}
+
+
+#E1 {
+   left: -18px;
+   top: 24px;
+}
+
+#E2 {
+   left: -18px;
+   top: 112px;
+}
+
+#E3 {
+   left: -18px;
+   top: 200px;
+}
+
+#E0 {
+   left: -18px;
+   top: 278px;
+}
+
+#a1 {
+   left: 43px;
+   top: 24px;
+}
+
+#a2 {
+   left: 43px;
+   top: 112px;
+}
+
+#a3 {
+   left: 43px;
+   top: 200px;;
+}
+
+#a0 {
+   left: 43px;
+   top: 278px;
+}
+
+#d1 {
+   left: 103px;
+   top: 24px;
+}
+
+#d2 {
+   left: 103px;
+   top: 112px;
+}
+
+#d3 {
+   left: 103px;
+   top: 200px;
+}
+
+#d0 {
+   left: 103px;
+   top: 278px;
+}
+
+#g1 {
+   left: 164px;
+   top: 24px;
+}
+
+#g2 {
+   left: 164px;
+   top: 112px;
+}
+
+#g3 {
+   left: 164px;
+   top: 200px;
+}
+
+#g0 {
+   left: 164px;
+   top: 278px;
+}
+
+#b1 {
+   left: 226px;
+   top: 24px;
+}
+
+#b2 {
+   left: 226px;
+   top: 112px;
+}
+
+#b3 {
+   left: 226px;
+   top: 200px;
+}
+
+#b0 {
+   left: 226px;
+   top: 278px;
+}
+
+#e1 {
+   left: 283px;
+   top: 24px;
+}
+
+#e2 {
+   left: 283px;
+   top: 112px;
+}
+
+#e3 {
+   left: 283px;
+   top: 200px;
+}
+
+#e0 {
+   left: 283px;
+   top: 278px;
+}
+
